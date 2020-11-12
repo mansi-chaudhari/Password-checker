@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round|Dancing+Script|Abel|Quicksand");
+
+
+*{
+margin:0;
+padding:0;}
+
+#n{
+position:sticky;
+top:0px;
+background:linear-gradient(35deg,lightgray,darkgray,gray,slategray,darkslategray);
+z-index:20;
+text-align:center;
+}
+
+h1{
+font-size:4.5rem;
+padding:3rem;
+color:white;
+}
+
+
+#bluebox{
+  position:relative;
+  display:flex;
+  width:100%;
+  height:70vh;
+  background:linear-gradient(135deg,crimson,pink);
+  justify-content:center;
+  font-family:"Quicksand";
+  font-size:28px;
+  letter-spacing:4px;
+  color:darkslategray;
+  margin:0;
+  padding-top:2rem;
+  padding-bottom:10rem;
+}
+
+
+form{
+ background:cadetblue;
+ margin:2rem;
+ padding:2rem 6rem;
+ padding-top:4rem;
+ height:25vh;
+ border-radius:1%;
+ }
+
+input{
+font-size:1.5rem;
+padding:0.5rem;
+font-family:cursive;
+margin-bottom:2rem;}
+
+#submit{
+  width:100%;
+  height:50px;
+  font-size:30px;
+  font-family:cursive;
+  color:ivory;
+  background-color:navy;
+}
+footer{
+  display:flex;
+  justify-content:flex-end;
+  font-family:"dancing script";
+  font-size:1.5rem;
+}
+
+footer > p{
+background:green;}
